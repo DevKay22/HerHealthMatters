@@ -1,0 +1,86 @@
+.abt{
+    height: 29em;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-bottom: 4em;
+    margin-top: 0;
+    padding-left: 7%;
+    display: flex;
+
+}
+
+.abt>.abtContent{
+    width: 52%;
+    /* border: 1px solid red; */
+    
+}
+
+.abtContent>h1{
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.abt>.diagram{
+    width: 47%;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    height: 95%;
+    background-color: #E9FFF0;
+}
+
+
+.abtContent>p{
+    margin-bottom: 0.9em;
+    font-size: 1.08em;
+    
+}
+
+.preg{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 80%;
+    margin: 2em auto;
+    border-radius: 50%;
+} 
+
+.preg>img{
+    height: 100%;
+    width: 100%;
+    background-color: #E9FFF0;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 769px) {
+    .abt{
+        display: flex;
+        flex-direction: column;
+        height: 58em;
+        width: 100%;
+        /* border: 1px solid green; */
+        /* padding-right: 0; */
+    }
+
+    .abt>.abtContent{
+        /* border: 1px solid blue; */
+        height: 25em;
+        width: 90%;
+        margin-top: 1em;
+        /* margin-bottom: 1em; */
+    }
+
+    .abtContent>p{
+        width: 100%;
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    .abtContent>h1{
+        margin-top: 0;
+    }
+
+    .abt>.diagram{
+        width: 90%;
+        height: 30em;
+        margin-top: 0;
+    }
+}
