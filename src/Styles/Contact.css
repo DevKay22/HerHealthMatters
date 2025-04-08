@@ -1,0 +1,111 @@
+.listening{
+    background-color: #DCDCDC;
+    width: 100%;
+    height: 28em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+}
+
+.listening>h1{
+    background-color: #DCDCDC;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 0;
+    height: 23em;
+    /* width: 50%; */
+    background-color: #DCDCDC
+}
+
+.inps{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    width: 35%;
+    height: 3em;
+    margin-bottom: 2em;
+    background-color: #DCDCDC
+}
+.fname{
+    width: 37%;
+    border-radius: 0.4em;
+    outline: none;
+    border: 0;
+    padding-left: 12px;
+
+}
+
+.fname::placeholder{
+    padding: 6px 0;
+}
+
+.email{
+    width: 58%;
+    border-radius: 0.4em;
+    outline: none;
+    border: 0;
+    padding-left: 12px;
+}
+
+.email::placeholder{
+    padding: 6px 0;
+}
+
+.textArea{
+    width: 35%;
+    height: 60%;
+    /* margin-bottom: 2em; */
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.textArea>textArea{
+    width: 100%;
+    height: 100%;
+    padding: 12px 60px 12px 12px; /* right padding for button */
+  font-size: 16px;
+  resize: none;
+  box-sizing: border-box;
+  color: #424242;
+  outline: none;
+    border: 0;
+}
+
+.textArea>button{
+    width: 96%;
+    position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  height: 3em;
+  border-radius: 0.4em;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 769px) {
+    form{
+        /* border: 1px solid red; */
+    }
+    .inps{
+        /* border: 1px solid red; */
+        width: 87%;
+        margin-top: 1.6em;
+        margin-bottom: 0.8em;
+    }
+
+    .textArea{
+        /* border: 1px solid red; */
+        width: 87%;
+        margin-top: 0;
+    }
+}
