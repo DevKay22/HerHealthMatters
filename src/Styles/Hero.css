@@ -31,7 +31,7 @@
     margin-bottom: 2.8em;
 }
 
-.cont>button{
+.cont>button, .mobileBtn{
     width: 100%;
     height: 3.5em;
     border-radius: 0.3em;
@@ -59,7 +59,87 @@
     margin-left: 6em;
 }
 
+.mobileBtn{
+    display: none;
+}
+
 .womencont>div>p{
     font-size: 1.2em;
     margin-bottom: 0.7em;
+}
+
+@media screen and (max-width:769px){
+    .carousel{
+        display: flex;
+        flex-direction: column;
+        height: 38em;
+    }
+
+    .cont{
+        height: 17em;
+        width: 100%;
+        border: 1px solid red;
+        padding: 0.2em 0.1em;
+        
+    }
+
+    .cont>h1{
+        font-size: 2.5em;
+        font-weight: 900;
+        margin-bottom: 0.5em;
+        margin-top: 1.5em;
+        text-align: center;
+    }
+
+    .cont>p{
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .cont>button{
+        display: none;
+    }
+
+    .imagery{
+        height: 20em;
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .imagery>img{
+        width: 100%;
+    }
+
+    .mobileBtn{
+        display: flex;
+        /* margin-top: 0.5em; */
+        margin-bottom: 0.5em;
+        height: 3em;
+        border: 1px solid red;
+    }
+    .mobileBtn>button{
+        width: 100%;
+        border-radius: 0.4em;
+        background-color: #8b0064;
+        border: 0;
+        color: #fff;
+        font-size: 1em;
+       
+    }
+
+    .womencont{
+        margin: 2em auto;
+        width: 85%;
+    }
+
+    .womencont>div{
+        /* width: 10em; */
+        border: 1px solid red;
+    }
+
+    .womencont>div>img{
+        height: 1.9em;
+        
+    }
+
 }
