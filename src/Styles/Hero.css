@@ -78,7 +78,7 @@
     .cont{
         height: 17em;
         width: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         padding: 0.2em 0.1em;
         
     }
@@ -103,7 +103,7 @@
     .imagery{
         height: 20em;
         width: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .imagery>img{
@@ -115,7 +115,7 @@
         /* margin-top: 0.5em; */
         margin-bottom: 0.5em;
         height: 3em;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .mobileBtn>button{
         width: 100%;
@@ -132,10 +132,7 @@
         width: 85%;
     }
 
-    .womencont>div{
-        /* width: 10em; */
-        border: 1px solid red;
-    }
+   
 
     .womencont>div>img{
         height: 1.9em;

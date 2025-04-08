@@ -14,11 +14,14 @@ const Services = () => {
 
             <div className='svcContent'>
                 <div>
-                  <img src={icon1} alt="" className='icons' />
+                  <div className='svcMobile'>
+                    <img src={icon1} alt="" className='icons' />
 
-                  <h3>
-                    Maternity Tips and Guides
-                  </h3>
+                    <h3>
+                      Maternity Tips and Guides
+                    </h3>
+                  </div>
+                  
 
                   <p>
                     Whether you are planning to become pregnant, already pregnant or about to 
@@ -29,11 +32,15 @@ const Services = () => {
 
 
                 <div>
-                <img src={icon2} alt="" className='icons' />
 
-                <h3>
-                   Free Consultation
-                </h3>
+                  <div className='svcMobile'>
+                    <img src={icon2} alt="" className='icons' />
+
+                    <h3>
+                      Free Consultation
+                    </h3>
+
+                  </div>
 
                 <p>
                     Meet our professionals for free. Discuss your needs, ask questions and get answers, 
@@ -44,11 +51,15 @@ const Services = () => {
 
 
                 <div>
-                <img src={icon3} alt="" className='icons' />
 
-                  <h3>
-                    Pharmaceuticals
-                  </h3>
+                      <div className='svcMobile'>
+                        <img src={icon3} alt="" className='icons' />
+
+                        <h3>
+                           Pharmaceuticals
+                        </h3>
+                      </div>
+                
 
               <p>
                  We have a broad category of drugs and medicataions designed for various medical purposes.
